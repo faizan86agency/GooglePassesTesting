@@ -5,6 +5,6 @@
     "target": "es6",
     "esModuleInterop": true
   },
-  "include": ["src/**/*.ts", "src/quill.mts"],
+  "include": ["lib/**/*.ts"],
   "exclude": ["node_modules"]
 }
