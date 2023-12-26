@@ -10,6 +10,14 @@
     ".": {
       "import": "./lib/esm/index.ts",
       "require": "./lib/cjs/index.ts"
+    },
+    "./lib/esm/*": {
+      "import": "./lib/esm/*.ts",
+      "require": "./lib/cjs/*.ts"
+    },
+    "./lib/cjs/*": {
+      "import": "./lib/esm/*.ts",
+      "require": "./lib/cjs/*.ts"
     }
   },
   "repository": {
