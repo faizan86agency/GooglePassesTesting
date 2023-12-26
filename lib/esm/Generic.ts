@@ -5,6 +5,8 @@ import { Pagination } from "./types/generic/Pagination.js";
 
 export * from "./types/generic/index.js";
 
+/// <reference types="./Generic.d.ts" />
+
 export class GenericClient {
   private readonly httpClient: GoogleAuth;
   private readonly baseUrl =
