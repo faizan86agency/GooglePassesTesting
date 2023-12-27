@@ -1,6 +1,6 @@
 {
   "name": "google-pass-package",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "",
   "main": "./lib/myModule.ts",
   "scripts": {
