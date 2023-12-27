@@ -6,20 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "exports": {
-    ".": {
-      "import": "./lib/esm/index.ts",
-      "require": "./lib/cjs/index.ts"
-    },
-    "./lib/esm/*": {
-      "import": "./lib/esm/*.ts",
-      "require": "./lib/cjs/*.ts"
-    },
-    "./lib/cjs/*": {
-      "import": "./lib/esm/*.ts",
-      "require": "./lib/cjs/*.ts"
-    }
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/faizan86agency/GooglePassesTesting.git"
